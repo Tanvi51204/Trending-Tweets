@@ -31,9 +31,9 @@ def predict_trend(retweet_count, user_followers_count, tweet_text, model_type='r
     return prediction[0]
 
 # UI
-st.title("Hashtag Trend Predictor")
+st.title("Trending Tweet Predictor")
 
-st.write("Enter the tweet details below to predict if the hashtag is trending.")
+st.write("Enter the tweet details below to predict if it is trending.")
 
 retweet_count = st.number_input("Retweet Count", min_value=0, step=1)
 user_followers_count = st.number_input("User Followers Count", min_value=0, step=1)
@@ -43,6 +43,6 @@ model_type = st.radio("Choose model", ('Naive Bayes', 'Random Forest'))
 if st.button("Predict"):
     prediction = predict_trend(retweet_count, user_followers_count, tweet_text, model_type='nb' if model_type == 'Naive Bayes' else 'rf')
     if prediction == 1:
-        st.success("The hashtag is trending!")
+        st.success("The tweet is trending!")
     else:
-        st.info("The hashtag is not trending.")
+        st.info("The tweet is not trending.")
