@@ -1,11 +1,11 @@
-#Trending Tweet Predictor
+Trending Tweet Predictor
 
-This project aims to predict whether a hashtag associated with a tweet is trending or not. The application is built using machine learning models, specifically Naive Bayes and Random Forest classifiers, and is deployed as a web application using Streamlit.
+This project aims to predict whether a tweet is trending or not. The application is built using machine learning models, specifically Naive Bayes and Random Forest classifiers, and is deployed as a web application using Streamlit.
 
 
 Project Overview
 
-The Hashtag Trend Predictor analyzes tweet data to predict if a hashtag is trending. This prediction is based on features such as the number of retweets, user follower count, and tweet content. The project leverages machine learning techniques to classify hashtags as trending or not trending.
+The Treding Tweet Predictor analyzes tweet data to predict if it is trending. This prediction is based on features such as the number of retweets, user follower count, and tweet content. The project leverages machine learning techniques to classify tweets as trending or not trending.
 
 
 Application
