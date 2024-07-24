@@ -1,4 +1,4 @@
-Trending Tweet Predictor
+#Trending Tweet Predictor
 
 This project aims to predict whether a hashtag associated with a tweet is trending or not. The application is built using machine learning models, specifically Naive Bayes and Random Forest classifiers, and is deployed as a web application using Streamlit.
 
@@ -21,36 +21,37 @@ Usage
 Prerequisites
 Python 3.7 or higher
 Required Python packages (install via requirements.txt)
+
 Installation
 Clone the repository:
 
 bash
 
-git clone https://github.com/yourusername/hashtag-trend-predictor.git
-cd hashtag-trend-predictor
+`git clone https://github.com/Tanvi51204/Trending-Tweets.git`
+`cd Trending-Tweets`
+
 Create a virtual environment and activate it:
 
 bash
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+`python -m venv env`
+`source env/bin/activate`  
+
+ On Windows use 
+`env\Scripts\activate`
+
+
 Install the dependencies:
 
 bash
-Copy code
-pip install -r requirements.txt
-Running the Application
-Train the models if not already trained:
 
-bash
-Copy code
-python train_models.py
+`pip install -r requirements.txt`
+
 Launch the Streamlit application:
 
 bash
-Copy code
-streamlit run app.py
-Open your browser and navigate to http://localhost:8501 to use the application.
+
+`streamlit run app.py`
 
 Results
 
